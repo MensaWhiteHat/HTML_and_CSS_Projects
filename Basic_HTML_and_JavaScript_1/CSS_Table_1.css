@@ -1,0 +1,19 @@
+tr, th {
+	backround-color: black;
+	color:cornsilk;
+}
+
+table {
+	border: 1px solid silver;
+}
+
+td:hover {
+	backround-color:yellow;
+	color:black;
+}
+
+tr, td {
+	backround-color:darkgreen;
+	color:white;
+}
+	
