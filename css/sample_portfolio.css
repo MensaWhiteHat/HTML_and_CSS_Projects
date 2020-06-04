@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    font-family: Avant Garde, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #F4F4F4;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar a.active {
+    background-color: darkgray;
+}
+
+#Intro_Video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    z-index: -1;
+}
+
+.Video_Text {
+    background: rgba(0, 0, 0, .5);
+    color:  white;
+    width: 100%;
+    padding: 20px;
+    margin-top: 23%;
+}
+
